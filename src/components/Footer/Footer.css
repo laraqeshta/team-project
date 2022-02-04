@@ -1,0 +1,111 @@
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.imag-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 26px;
+}
+
+.logo {
+  width: 35px;
+  height: 36.23px;
+}
+
+
+
+.header {
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0B132A;
+  margin-left: 10px;
+}
+
+.lasles {
+  width: 340px;
+  height: 61.57px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 187% */
+
+
+  color: #4F5665;
+}
+
+.copy-write {
+  width: 132px;
+  height: 30px;
+
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  text-align: center;
+
+  color: #AFB5C0;
+}
+
+.fisrt-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+
+}
+
+h3 {
+  width: 71px;
+  height: 30px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #0B132A;
+}
+
+.list {
+  list-style: none;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+
+  margin: 40px;
+
+}
+
+li {
+  width: 114px;
+  height: 30px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4F5665;
+
+  margin-left: -110px;
+}
+
+.list-div {
+  display: flex;
+
+}
