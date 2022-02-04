@@ -1,29 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-*{
-    font-family: Rubik;
-    font-style: normal;
-}
-
-body{
+body
+{
     background: #F6F6F6;
-}
-
-h1{
-    font-weight: 500;
-    font-size: 35px;
-    line-height: 50px;
-    text-align: center;
-    color: #0B132A;
-    width: 25%;
-    padding-left: 38%;
-
-}
-
-p{
-    font-size: 16px;
-    line-height: 30px;
-    text-align: center;
-    color: #4F5665;
 }
 .image-map{
     width:60%;
@@ -35,4 +12,7 @@ p{
     width: 80%;
     margin-top: 50px;
 
+}
+.brandone{
+    display: flex;
 }

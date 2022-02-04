@@ -8,18 +8,18 @@ import './ChooseYourPlan.css';
 const ChooseYourPlan = () => {
 
     return(
-        <div className="container">
-            <h1>Choose Your Plan</h1>
-            <p>
+        <div className="section-one">
+            <h1 className="title">Choose Your Plan</h1>
+            <p className="disc">
                 Let's choose the package that is best for you and explore it happily and cheerfully.
             </p>
 
             <div className="rectangle">
                 <div className="plan">
                     <img src={box} className="box"/>
-                    <h3>Free Plan</h3>
+                    <h3 className="sub-title">Free Plan</h3>
 
-                    <ul>
+                    <ul className="plan-list">
                         <li>
                             <img src={vector} className="vector"/>
                            <span className="list">Unlimited Bandwitch</span> 
@@ -41,7 +41,7 @@ const ChooseYourPlan = () => {
                     <div className="plan-name">
 
                         <h2>Free</h2>
-                        <button className="button">Select</button>
+                        <button className="button-select">Select</button>
                         
                     </div>
 
@@ -52,7 +52,7 @@ const ChooseYourPlan = () => {
                     <img src={box} className="box"/>
                     <h3>Standard Plan</h3>
 
-                    <ul>
+                    <ul className="plan-list">
                         <li>
                             <img src={vector} className="vector"/>
                            <span className="list">Unlimited Bandwitch</span> 
@@ -79,8 +79,8 @@ const ChooseYourPlan = () => {
                     
                     <div className="plan-name">
 
-                        <h2>$9 / mo</h2>
-                        <button className="button">Select</button>
+                        <h2>$9 /<span className="mo">mo</span></h2>
+                        <button className="button-select">Select</button>
 
                     </div>
                    
@@ -90,7 +90,7 @@ const ChooseYourPlan = () => {
                     <img src={box} className="box"/>
                     <h3>Premium Plan</h3>
 
-                    <ul>
+                    <ul className="plan-list">
                         <li>
                             <img src={vector} className="vector"/>
                            <span className="list">Unlimited Bandwitch</span> 
@@ -119,8 +119,8 @@ const ChooseYourPlan = () => {
                     
                     <div className="plan-name">
 
-                    <h2>$12 / mo</h2>
-                    <button className="button">Select</button>
+                    <h2>$12 / <span className="mo">mo</span></h2>
+                    <button className="button-select">Select</button>
 
                     </div>
                 </div>

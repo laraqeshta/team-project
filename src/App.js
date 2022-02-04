@@ -4,7 +4,6 @@ import react from 'react';
 import './App.css';
 
 //component
-import Features from './component/Features';
 import ChoosYourPlan from './component/ChooseYourPlan';
 import HugeGlobal from './component/HugeGlobal';
 
